@@ -1,15 +1,15 @@
 %
 % Clear tiny coefficients, tiny real parts, and tiny imaginary parts
-% from a polynomial
+% from a polynomial or a cell array of polynomials
 %
 % Syntax:  (pclear is the shortened alias of PolynomialClear)
 %          >> g = PolynomialClear(f)
 %          >> g = PolynomialClear(f,tol)
 %
-%   Input:   f --- (string or numeric) polynomial
-%          tol --- (numeric)           threshold for being tiny
+%   Input:   f --- (string/numeric/cell array) polynomial (array)
+%          tol --- (numeric, optional)         threshold for being tiny
 %
-%  Output:   g --- (string or numeric) cleared polynomial
+%  Output:   g --- (string/numeric/cell array) cleared polynomial (array)
 %
 %  Example:
 %

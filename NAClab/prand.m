@@ -8,7 +8,8 @@
 %           degree --- (integer or vector) tuple degree bound
 %                                  for the random polynomial
 %            terms --- (integer/string, optional) number of terms or 'all',
-%                       if missing, produce random number of terms.
+%                       if missing, produce all terms in univariate case
+%                       or random number of terms in multivariate case
 %
 %  Output:          p --- (string) random polynomial
 %
